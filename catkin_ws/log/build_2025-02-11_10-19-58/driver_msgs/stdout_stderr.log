@@ -1,0 +1,9 @@
+[  4%] Built target driver_msgs__cpp
+[ 18%] Built target driver_msgs__rosidl_generator_c
+[ 31%] Built target driver_msgs__rosidl_typesupport_cpp
+[ 45%] Built target driver_msgs__rosidl_typesupport_fastrtps_cpp
+[ 59%] Built target driver_msgs__rosidl_typesupport_introspection_c
+[ 72%] Built target driver_msgs__rosidl_typesupport_introspection_cpp
+[ 86%] Built target driver_msgs__rosidl_typesupport_fastrtps_c
+[100%] Built target driver_msgs__rosidl_typesupport_c
+[100%] Built target driver_msgs

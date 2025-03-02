@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (-) JobUnselected: {'identifier': 'driver_msgs'}
+[0.000196] (-) JobUnselected: {'identifier': 'process'}
+[0.000209] (driver) JobQueued: {'identifier': 'driver', 'dependencies': OrderedDict([('driver_msgs', '/home/hou/catkin_ws/install/driver_msgs')])}
+[0.000224] (driver) JobStarted: {'identifier': 'driver'}
+[0.009741] (driver) JobProgress: {'identifier': 'driver', 'progress': 'cmake'}
+[0.009858] (driver) Command: {'cmd': ['/usr/bin/cmake', '/home/hou/catkin_ws/src/driver', '-DCMAKE_INSTALL_PREFIX=/home/hou/catkin_ws/install/driver'], 'cwd': '/home/hou/catkin_ws/build/driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hou'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hou/catkin_ws/install/driver_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hou'), ('OLDPWD', '/home/hou/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1897'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hou/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hou'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hou'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hou-VirtualBox:@/tmp/.ICE-unix/1859,unix/hou-VirtualBox:/tmp/.ICE-unix/1859'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3102e03_aeea_4f03_a2f6_3410cc443a03'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MYIY12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hou/catkin_ws/install/process:/home/hou/catkin_ws/install/driver:/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hou/catkin_ws/build/driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hou/catkin_ws/install/process/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hou/catkin_ws/install/driver:/home/hou/catkin_ws/install/driver_msgs:/home/hou/catkin_ws/install/process:/opt/ros/humble')]), 'shell': False}
+[0.081016] (driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100632] (-) TimerEvent: {}
+[0.160778] (driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.182431] (driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.202650] (-) TimerEvent: {}
+[0.308503] (driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.308682] (-) TimerEvent: {}
+[0.315568] (driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.315724] (driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.315760] (driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.317871] (driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.409209] (-) TimerEvent: {}
+[0.513686] (-) TimerEvent: {}
+[0.563343] (driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.592916] (driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.594580] (driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.594679] (driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.594712] (driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.624007] (-) TimerEvent: {}
+[0.734269] (-) TimerEvent: {}
+[0.835692] (-) TimerEvent: {}
+[0.893342] (driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.950775] (-) TimerEvent: {}
+[0.965727] (driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.994721] (driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.995123] (driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.003391] (driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.017463] (driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.020641] (driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.046967] (driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.048769] (driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.080038] (-) TimerEvent: {}
+[1.144830] (driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.162157] (driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.186226] (driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.186415] (-) TimerEvent: {}
+[1.191349] (driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.286884] (-) TimerEvent: {}
+[1.290496] (driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.290834] (driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.391230] (-) TimerEvent: {}
+[1.442626] (driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.442846] (driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.491717] (-) TimerEvent: {}
+[1.547233] (driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[1.549374] (driver) StderrLine: {'line': b'  By not providing "Finddriver_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.549484] (driver) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.549550] (driver) StderrLine: {'line': b'  "driver_msgs", but CMake did not find one.\n'}
+[1.549583] (driver) StderrLine: {'line': b'\n'}
+[1.549612] (driver) StderrLine: {'line': b'  Could not find a package configuration file provided by "driver_msgs" with\n'}
+[1.549641] (driver) StderrLine: {'line': b'  any of the following names:\n'}
+[1.549667] (driver) StderrLine: {'line': b'\n'}
+[1.549694] (driver) StderrLine: {'line': b'    driver_msgsConfig.cmake\n'}
+[1.549720] (driver) StderrLine: {'line': b'    driver_msgs-config.cmake\n'}
+[1.549746] (driver) StderrLine: {'line': b'\n'}
+[1.549771] (driver) StderrLine: {'line': b'  Add the installation prefix of "driver_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[1.549797] (driver) StderrLine: {'line': b'  "driver_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[1.549824] (driver) StderrLine: {'line': b'  "driver_msgs" provides a separate development package or SDK, be sure it\n'}
+[1.549849] (driver) StderrLine: {'line': b'  has been installed.\n'}
+[1.549876] (driver) StderrLine: {'line': b'\n'}
+[1.552418] (driver) StderrLine: {'line': b'\x1b[0m\n'}
+[1.552535] (driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.552577] (driver) StdoutLine: {'line': b'See also "/home/hou/catkin_ws/build/driver/CMakeFiles/CMakeOutput.log".\n'}
+[1.582867] (driver) CommandEnded: {'returncode': 1}
+[1.617504] (-) TimerEvent: {}
+[1.691782] (driver) JobEnded: {'identifier': 'driver', 'rc': 1}
+[1.711436] (-) EventReactorShutdown: {}

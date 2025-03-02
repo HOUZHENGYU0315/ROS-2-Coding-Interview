@@ -1,0 +1,10 @@
+[0.042s] Invoking command in '/home/hou/catkin_ws/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[0.445s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_node.dir/src/driver_node.cpp.o[0m
+[1.449s] [01m[K/home/hou/catkin_ws/src/driver/src/driver_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdriver_msgs/target.hpp: 没有那个文件或目录
+[1.449s]     2 | #include [01;31m[K"driver_msgs/target.hpp"[m[K  // 使用自定义消息
+[1.449s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.449s] compilation terminated.
+[1.470s] gmake[2]: *** [CMakeFiles/driver_node.dir/build.make:76：CMakeFiles/driver_node.dir/src/driver_node.cpp.o] 错误 1
+[1.481s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/driver_node.dir/all] 错误 2
+[1.481s] gmake: *** [Makefile:146：all] 错误 2
+[1.820s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10

@@ -1,0 +1,25 @@
+[0.170s] Invoking command in '/home/hou/catkin_ws/build/driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[0.763s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_node.dir/src/driver_node.cpp.o[0m
+[37.455s] [100%] [32m[1mLinking CXX executable driver_node[0m
+[40.878s] [100%] Built target driver_node
+[41.022s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[41.022s] Invoking command in '/home/hou/catkin_ws/build/driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake --install /home/hou/catkin_ws/build/driver
+[41.097s] -- Install configuration: ""
+[41.122s] -- Installing: /home/hou/catkin_ws/install/driver/lib/driver/driver_node
+[41.142s] -- Set runtime path of "/home/hou/catkin_ws/install/driver/lib/driver/driver_node" to ""
+[41.142s] -- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/package_run_dependencies/driver
+[41.148s] -- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/parent_prefix_path/driver
+[41.173s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/ament_prefix_path.sh
+[41.216s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/ament_prefix_path.dsv
+[41.216s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/path.sh
+[41.216s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/path.dsv
+[41.236s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.bash
+[41.248s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.sh
+[41.250s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.zsh
+[41.259s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.dsv
+[41.276s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/package.dsv
+[41.299s] -- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/packages/driver
+[41.302s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/cmake/driverConfig.cmake
+[41.327s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/cmake/driverConfig-version.cmake
+[41.351s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/package.xml
+[41.402s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake --install /home/hou/catkin_ws/build/driver

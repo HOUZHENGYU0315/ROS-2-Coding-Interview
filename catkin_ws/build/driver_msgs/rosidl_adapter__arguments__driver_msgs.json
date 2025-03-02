@@ -1,0 +1,6 @@
+{
+  "package_name": "driver_msgs",
+  "non_idl_tuples": [
+    "/home/hou/catkin_ws/src/driver_msgs:msg/Target.msg"
+  ]
+}

@@ -1,0 +1,22 @@
+[1.169s] Invoking command in '/home/hou/catkin_ws/src/process': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/build/process/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hou/catkin_ws/install/process/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/process build --build-base /home/hou/catkin_ws/build/process/build install --record /home/hou/catkin_ws/build/process/install.log --single-version-externally-managed install_data
+[1.364s] running egg_info
+[1.364s] writing ../../build/process/process.egg-info/PKG-INFO
+[1.370s] writing dependency_links to ../../build/process/process.egg-info/dependency_links.txt
+[1.370s] writing entry points to ../../build/process/process.egg-info/entry_points.txt
+[1.376s] writing requirements to ../../build/process/process.egg-info/requires.txt
+[1.379s] writing top-level names to ../../build/process/process.egg-info/top_level.txt
+[1.391s] reading manifest file '../../build/process/process.egg-info/SOURCES.txt'
+[1.397s] writing manifest file '../../build/process/process.egg-info/SOURCES.txt'
+[1.398s] running build
+[1.398s] running build_py
+[1.401s] running install
+[1.401s] running install_lib
+[1.401s] running install_data
+[1.401s] copying package.xml -> /home/hou/catkin_ws/install/process/share/process
+[1.403s] running install_egg_info
+[1.419s] removing '/home/hou/catkin_ws/install/process/lib/python3.10/site-packages/process-0.0.0-py3.10.egg-info' (and everything under it)
+[1.419s] Copying ../../build/process/process.egg-info to /home/hou/catkin_ws/install/process/lib/python3.10/site-packages/process-0.0.0-py3.10.egg-info
+[1.419s] running install_scripts
+[1.432s] Installing process_node script to /home/hou/catkin_ws/install/process/lib/process
+[1.433s] writing list of installed files to '/home/hou/catkin_ws/build/process/install.log'
+[1.453s] Invoked command in '/home/hou/catkin_ws/src/process' returned '0': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/build/process/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hou/catkin_ws/install/process/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/process build --build-base /home/hou/catkin_ws/build/process/build install --record /home/hou/catkin_ws/build/process/install.log --single-version-externally-managed install_data

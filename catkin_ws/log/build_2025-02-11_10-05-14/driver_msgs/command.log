@@ -1,0 +1,1 @@
+Invoking command in '/home/hou/catkin_ws/build/driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver_msgs -- -j10 -l10

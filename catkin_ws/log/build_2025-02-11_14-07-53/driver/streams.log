@@ -1,0 +1,22 @@
+[0.108s] Invoking command in '/home/hou/catkin_ws/build/driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[1.074s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.992s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.626s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.687s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.791s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.901s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.240s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.245s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.439s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[4.439s]   ament_target_dependencies() the passed package name 'driver_msgs' was not
+[4.439s]   found before
+[4.439s] Call Stack (most recent call first):
+[4.439s]   CMakeLists.txt:18 (ament_target_dependencies)
+[4.439s] 
+[4.439s] [0m
+[4.440s] -- Configuring incomplete, errors occurred!
+[4.440s] See also "/home/hou/catkin_ws/build/driver/CMakeFiles/CMakeOutput.log".
+[4.444s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[4.449s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10

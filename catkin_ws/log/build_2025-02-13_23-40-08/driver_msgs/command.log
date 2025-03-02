@@ -1,0 +1,2 @@
+Invoking command in '/home/hou/catkin_ws/build/driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake /home/hou/catkin_ws/src/driver_msgs -DCMAKE_INSTALL_PREFIX=/home/hou/catkin_ws/install/driver_msgs
+Invoked command in '/home/hou/catkin_ws/build/driver_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake /home/hou/catkin_ws/src/driver_msgs -DCMAKE_INSTALL_PREFIX=/home/hou/catkin_ws/install/driver_msgs

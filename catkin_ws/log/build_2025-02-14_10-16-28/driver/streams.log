@@ -1,0 +1,23 @@
+[0.161s] Invoking command in '/home/hou/catkin_ws/build/driver': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[0.424s] [35m[1mConsolidate compiler generated dependencies of target driver_node[0m
+[0.576s] [100%] Built target driver_node
+[1.055s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[1.104s] Invoking command in '/home/hou/catkin_ws/build/driver': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hou/catkin_ws/build/driver
+[1.121s] -- Install configuration: ""
+[1.121s] -- Up-to-date: /home/hou/catkin_ws/install/driver/lib/driver/driver_node
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/package_run_dependencies/driver
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/parent_prefix_path/driver
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/environment/ament_prefix_path.sh
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/environment/ament_prefix_path.dsv
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/environment/path.sh
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/environment/path.dsv
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/local_setup.bash
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/local_setup.sh
+[1.122s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/local_setup.zsh
+[1.133s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/local_setup.dsv
+[1.133s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/package.dsv
+[1.133s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/packages/driver
+[1.133s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/cmake/driverConfig.cmake
+[1.133s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/cmake/driverConfig-version.cmake
+[1.133s] -- Up-to-date: /home/hou/catkin_ws/install/driver/share/driver/package.xml
+[1.212s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hou/catkin_ws/build/driver

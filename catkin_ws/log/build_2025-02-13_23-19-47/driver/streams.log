@@ -1,0 +1,71 @@
+[0.147s] Invoking command in '/home/hou/catkin_ws/build/driver': CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/home/hou/catkin_ws/install/driver:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake /home/hou/catkin_ws/src/driver -DCMAKE_INSTALL_PREFIX=/home/hou/catkin_ws/install/driver
+[0.271s] -- The C compiler identification is GNU 11.4.0
+[0.471s] -- The CXX compiler identification is GNU 11.4.0
+[0.482s] -- Detecting C compiler ABI info
+[0.867s] -- Detecting C compiler ABI info - done
+[0.875s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.875s] -- Detecting C compile features
+[0.875s] -- Detecting C compile features - done
+[0.875s] -- Detecting CXX compiler ABI info
+[1.234s] -- Detecting CXX compiler ABI info - done
+[1.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.297s] -- Detecting CXX compile features
+[1.297s] -- Detecting CXX compile features - done
+[1.297s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.541s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.644s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.796s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.806s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.829s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.099s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.116s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.248s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.270s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.296s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.311s] -- Looking for pthread.h
+[2.403s] -- Looking for pthread.h - found
+[2.403s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.651s] -- Found Threads: TRUE  
+[2.734s] -- Found driver_msgs: 0.0.0 (/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake)
+[2.761s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.812s] -- Configured cppcheck include dirs: 
+[2.812s] -- Configured cppcheck exclude dirs and/or files: 
+[2.813s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.814s] -- Added test 'lint_cmake' to check CMake code style
+[2.815s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.816s] -- Added test 'uncrustify' to check C / C++ code style
+[2.816s] -- Configured uncrustify additional arguments: 
+[2.816s] -- Added test 'xmllint' to check XML markup files
+[2.817s] -- Configuring done
+[2.825s] -- Generating done
+[2.828s] -- Build files have been written to: /home/hou/catkin_ws/build/driver
+[2.841s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/home/hou/catkin_ws/install/driver:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake /home/hou/catkin_ws/src/driver -DCMAKE_INSTALL_PREFIX=/home/hou/catkin_ws/install/driver
+[2.842s] Invoking command in '/home/hou/catkin_ws/build/driver': CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/home/hou/catkin_ws/install/driver:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[2.981s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_node.dir/src/driver_node.cpp.o[0m
+[7.852s] [100%] [32m[1mLinking CXX executable driver_node[0m
+[8.119s] [100%] Built target driver_node
+[8.185s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/home/hou/catkin_ws/install/driver:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[8.185s] Invoking command in '/home/hou/catkin_ws/build/driver': CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/home/hou/catkin_ws/install/driver:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake --install /home/hou/catkin_ws/build/driver
+[8.192s] -- Install configuration: ""
+[8.193s] -- Installing: /home/hou/catkin_ws/install/driver/lib/driver/driver_node
+[8.194s] -- Set runtime path of "/home/hou/catkin_ws/install/driver/lib/driver/driver_node" to ""
+[8.194s] -- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/package_run_dependencies/driver
+[8.194s] -- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/parent_prefix_path/driver
+[8.194s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/ament_prefix_path.sh
+[8.194s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/ament_prefix_path.dsv
+[8.194s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/path.sh
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/path.dsv
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.bash
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.sh
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.zsh
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.dsv
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/package.dsv
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/packages/driver
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/cmake/driverConfig.cmake
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/cmake/driverConfig-version.cmake
+[8.196s] -- Installing: /home/hou/catkin_ws/install/driver/share/driver/package.xml
+[8.199s] Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/home/hou/catkin_ws/install/driver:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake --install /home/hou/catkin_ws/build/driver

@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.001191] (driver) JobQueued: {'identifier': 'driver', 'dependencies': OrderedDict()}
+[0.001470] (driver_msgs) JobQueued: {'identifier': 'driver_msgs', 'dependencies': OrderedDict()}
+[0.001488] (process) JobQueued: {'identifier': 'process', 'dependencies': OrderedDict()}
+[0.001498] (driver) JobStarted: {'identifier': 'driver'}
+[0.013864] (driver_msgs) JobStarted: {'identifier': 'driver_msgs'}
+[0.018292] (process) JobStarted: {'identifier': 'process'}
+[0.082705] (driver) JobProgress: {'identifier': 'driver', 'progress': 'cmake'}
+[0.108700] (driver) JobProgress: {'identifier': 'driver', 'progress': 'build'}
+[0.109519] (-) TimerEvent: {}
+[0.109607] (driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hou/catkin_ws/build/driver', '--', '-j10', '-l10'], 'cwd': '/home/hou/catkin_ws/build/driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hou'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hou'), ('OLDPWD', '/home/hou'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1882'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hou'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hou'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hou-VirtualBox:@/tmp/.ICE-unix/1851,unix/hou-VirtualBox:/tmp/.ICE-unix/1851'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d1fa702e_ea98_43a2_81d6_dd0eb8e621da'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TRU12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hou/catkin_ws/build/driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.117227] (driver_msgs) JobProgress: {'identifier': 'driver_msgs', 'progress': 'cmake'}
+[0.121467] (driver_msgs) JobProgress: {'identifier': 'driver_msgs', 'progress': 'build'}
+[0.121574] (driver_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hou/catkin_ws/build/driver_msgs', '--', '-j10', '-l10'], 'cwd': '/home/hou/catkin_ws/build/driver_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hou'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hou'), ('OLDPWD', '/home/hou'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1882'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hou'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hou'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hou-VirtualBox:@/tmp/.ICE-unix/1851,unix/hou-VirtualBox:/tmp/.ICE-unix/1851'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d1fa702e_ea98_43a2_81d6_dd0eb8e621da'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TRU12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hou/catkin_ws/build/driver_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.213968] (-) TimerEvent: {}
+[0.317856] (-) TimerEvent: {}
+[0.426813] (-) TimerEvent: {}
+[0.535678] (-) TimerEvent: {}
+[0.650985] (-) TimerEvent: {}
+[0.760910] (-) TimerEvent: {}
+[0.871103] (-) TimerEvent: {}
+[0.978707] (-) TimerEvent: {}
+[1.074947] (driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.083615] (-) TimerEvent: {}
+[1.090825] (driver_msgs) StdoutLine: {'line': b'[  4%] Built target driver_msgs__cpp\n'}
+[1.188785] (-) TimerEvent: {}
+[1.301479] (-) TimerEvent: {}
+[1.370937] (driver_msgs) StdoutLine: {'line': b'[ 18%] Built target driver_msgs__rosidl_generator_c\n'}
+[1.405069] (-) TimerEvent: {}
+[1.517863] (driver_msgs) StdoutLine: {'line': b'[ 31%] Built target driver_msgs__rosidl_typesupport_cpp\n'}
+[1.520790] (-) TimerEvent: {}
+[1.546123] (driver_msgs) StdoutLine: {'line': b'[ 45%] Built target driver_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.548955] (driver_msgs) StdoutLine: {'line': b'[ 59%] Built target driver_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.632798] (-) TimerEvent: {}
+[1.733612] (driver_msgs) StdoutLine: {'line': b'[ 72%] Built target driver_msgs__rosidl_typesupport_c\n'}
+[1.736742] (-) TimerEvent: {}
+[1.748461] (driver_msgs) StdoutLine: {'line': b'[ 86%] Built target driver_msgs__rosidl_typesupport_introspection_c\n'}
+[1.837664] (-) TimerEvent: {}
+[1.871468] (driver_msgs) StdoutLine: {'line': b'[100%] Built target driver_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.942046] (-) TimerEvent: {}
+[2.074707] (driver_msgs) StdoutLine: {'line': b'[100%] Built target driver_msgs\n'}
+[2.077110] (-) TimerEvent: {}
+[2.127998] (driver_msgs) CommandEnded: {'returncode': 0}
+[2.168890] (driver_msgs) JobProgress: {'identifier': 'driver_msgs', 'progress': 'install'}
+[2.177997] (-) TimerEvent: {}
+[2.230741] (driver_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hou/catkin_ws/build/driver_msgs'], 'cwd': '/home/hou/catkin_ws/build/driver_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hou'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hou'), ('OLDPWD', '/home/hou'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1882'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hou'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hou'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hou-VirtualBox:@/tmp/.ICE-unix/1851,unix/hou-VirtualBox:/tmp/.ICE-unix/1851'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d1fa702e_ea98_43a2_81d6_dd0eb8e621da'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TRU12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hou/catkin_ws/build/driver_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.266634] (driver_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.269828] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/ament_index/resource_index/rosidl_interfaces/driver_msgs\n'}
+[2.269870] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs\n'}
+[2.280745] (-) TimerEvent: {}
+[2.294633] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg\n'}
+[2.294775] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.294814] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail\n'}
+[2.294845] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__struct.h\n'}
+[2.294874] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__type_support.h\n'}
+[2.294901] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__functions.h\n'}
+[2.294927] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__functions.c\n'}
+[2.294952] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/target.h\n'}
+[2.294979] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/environment/library_path.sh\n'}
+[2.295014] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/environment/library_path.dsv\n'}
+[2.318177] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/lib/libdriver_msgs__rosidl_generator_c.so\n'}
+[2.333041] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs\n'}
+[2.373946] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg\n'}
+[2.374084] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail\n'}
+[2.374134] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[2.374171] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.385510] (-) TimerEvent: {}
+[2.423907] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/lib/libdriver_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.424095] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs\n'}
+[2.424137] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg\n'}
+[2.424168] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail\n'}
+[2.424196] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__builder.hpp\n'}
+[2.424226] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__type_support.hpp\n'}
+[2.424255] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__traits.hpp\n'}
+[2.424286] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__struct.hpp\n'}
+[2.424324] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/target.hpp\n'}
+[2.424353] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.424382] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs\n'}
+[2.424410] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg\n'}
+[2.424438] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail\n'}
+[2.424466] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.424494] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/dds_fastrtps\n'}
+[2.425793] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.444906] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/lib/libdriver_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.445053] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs\n'}
+[2.445105] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg\n'}
+[2.445137] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail\n'}
+[2.446766] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[2.446814] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__type_support.c\n'}
+[2.446846] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.452484] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/lib/libdriver_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.453103] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/lib/libdriver_msgs__rosidl_typesupport_c.so\n'}
+[2.453193] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs\n'}
+[2.453232] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg\n'}
+[2.453263] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail\n'}
+[2.453292] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__type_support.cpp\n'}
+[2.453321] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/include/driver_msgs/driver_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.474144] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/lib/libdriver_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.480123] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/lib/libdriver_msgs__rosidl_typesupport_cpp.so\n'}
+[2.480235] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/msg/Target.idl\n'}
+[2.497871] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/msg/Target.msg\n'}
+[2.497978] (-) TimerEvent: {}
+[2.498064] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/ament_index/resource_index/package_run_dependencies/driver_msgs\n'}
+[2.498113] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/ament_index/resource_index/parent_prefix_path/driver_msgs\n'}
+[2.498146] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/environment/ament_prefix_path.sh\n'}
+[2.498175] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/environment/ament_prefix_path.dsv\n'}
+[2.498203] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/environment/path.sh\n'}
+[2.498231] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/environment/path.dsv\n'}
+[2.498260] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/local_setup.bash\n'}
+[2.498288] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/local_setup.sh\n'}
+[2.500914] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/local_setup.zsh\n'}
+[2.501010] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/local_setup.dsv\n'}
+[2.501047] (driver_msgs) StdoutLine: {'line': b'-- Installing: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.dsv\n'}
+[2.501080] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/ament_index/resource_index/packages/driver_msgs\n'}
+[2.509018] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/export_driver_msgs__rosidl_generator_cExport.cmake\n'}
+[2.509111] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/export_driver_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.526964] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/export_driver_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.527066] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/export_driver_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.527105] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/export_driver_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.553761] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/export_driver_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.553988] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/export_driver_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.554057] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.554091] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.557418] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.557536] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.558052] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.558148] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.568413] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.568521] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.569686] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.569772] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.569809] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.569840] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.569870] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.569900] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.569946] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.569976] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgsConfig.cmake\n'}
+[2.570005] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/cmake/driver_msgsConfig-version.cmake\n'}
+[2.570036] (driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.xml\n'}
+[2.613538] (driver_msgs) CommandEnded: {'returncode': 0}
+[2.615232] (-) TimerEvent: {}
+[2.717132] (-) TimerEvent: {}
+[2.824804] (-) TimerEvent: {}
+[2.927766] (-) TimerEvent: {}
+[2.992944] (driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.036064] (driver_msgs) JobEnded: {'identifier': 'driver_msgs', 'rc': 0}
+[3.052005] (-) TimerEvent: {}
+[3.054340] (process) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/process', 'build', '--build-base', '/home/hou/catkin_ws/build/process/build', 'install', '--record', '/home/hou/catkin_ws/build/process/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hou/catkin_ws/src/process', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'hou', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hou', 'OLDPWD': '/home/hou', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1882', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hou', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hou', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hou-VirtualBox:@/tmp/.ICE-unix/1851,unix/hou-VirtualBox:/tmp/.ICE-unix/1851', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d1fa702e_ea98_43a2_81d6_dd0eb8e621da', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3TRU12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hou/catkin_ws/build/process', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hou/catkin_ws/build/process/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hou/catkin_ws/install/process/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.154450] (-) TimerEvent: {}
+[3.257880] (-) TimerEvent: {}
+[3.364854] (-) TimerEvent: {}
+[3.467940] (-) TimerEvent: {}
+[3.573918] (-) TimerEvent: {}
+[3.619451] (driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.627158] (process) StdoutLine: {'line': b'running egg_info\n'}
+[3.627241] (process) StdoutLine: {'line': b'writing ../../build/process/process.egg-info/PKG-INFO\n'}
+[3.627279] (process) StdoutLine: {'line': b'writing dependency_links to ../../build/process/process.egg-info/dependency_links.txt\n'}
+[3.627312] (process) StdoutLine: {'line': b'writing entry points to ../../build/process/process.egg-info/entry_points.txt\n'}
+[3.639743] (process) StdoutLine: {'line': b'writing requirements to ../../build/process/process.egg-info/requires.txt\n'}
+[3.643250] (process) StdoutLine: {'line': b'writing top-level names to ../../build/process/process.egg-info/top_level.txt\n'}
+[3.661697] (process) StdoutLine: {'line': b"reading manifest file '../../build/process/process.egg-info/SOURCES.txt'\n"}
+[3.661834] (process) StdoutLine: {'line': b"writing manifest file '../../build/process/process.egg-info/SOURCES.txt'\n"}
+[3.661871] (process) StdoutLine: {'line': b'running build\n'}
+[3.661899] (process) StdoutLine: {'line': b'running build_py\n'}
+[3.661927] (process) StdoutLine: {'line': b'running install\n'}
+[3.661953] (process) StdoutLine: {'line': b'running install_lib\n'}
+[3.662005] (process) StdoutLine: {'line': b'running install_data\n'}
+[3.662098] (process) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.669885] (process) StdoutLine: {'line': b"removing '/home/hou/catkin_ws/install/process/lib/python3.10/site-packages/process-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.669976] (process) StdoutLine: {'line': b'Copying ../../build/process/process.egg-info to /home/hou/catkin_ws/install/process/lib/python3.10/site-packages/process-0.0.0-py3.10.egg-info\n'}
+[3.688897] (driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.688999] (-) TimerEvent: {}
+[3.689071] (process) StdoutLine: {'line': b'running install_scripts\n'}
+[3.740422] (process) StdoutLine: {'line': b'Installing process_node script to /home/hou/catkin_ws/install/process/lib/process\n'}
+[3.746126] (process) StdoutLine: {'line': b"writing list of installed files to '/home/hou/catkin_ws/build/process/install.log'\n"}
+[3.789541] (-) TimerEvent: {}
+[3.792622] (driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.817127] (process) CommandEnded: {'returncode': 0}
+[3.898143] (process) JobEnded: {'identifier': 'process', 'rc': 0}
+[3.900184] (-) TimerEvent: {}
+[3.902675] (driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.992606] (driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.001730] (-) TimerEvent: {}
+[4.107330] (-) TimerEvent: {}
+[4.214585] (-) TimerEvent: {}
+[4.241039] (driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.245988] (driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.316845] (-) TimerEvent: {}
+[4.354157] (driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.418235] (-) TimerEvent: {}
+[4.440441] (driver) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[4.440616] (driver) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'driver_msgs' was not\n"}
+[4.440661] (driver) StderrLine: {'line': b'  found before\n'}
+[4.440692] (driver) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.440721] (driver) StderrLine: {'line': b'  CMakeLists.txt:18 (ament_target_dependencies)\n'}
+[4.440748] (driver) StderrLine: {'line': b'\n'}
+[4.440778] (driver) StderrLine: {'line': b'\x1b[0m\n'}
+[4.441639] (driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.441731] (driver) StdoutLine: {'line': b'See also "/home/hou/catkin_ws/build/driver/CMakeFiles/CMakeOutput.log".\n'}
+[4.445802] (driver) StderrLine: {'line': b'gmake: *** [Makefile:267\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.448128] (driver) CommandEnded: {'returncode': 2}
+[4.478896] (driver) JobEnded: {'identifier': 'driver', 'rc': 2}
+[4.489435] (-) EventReactorShutdown: {}

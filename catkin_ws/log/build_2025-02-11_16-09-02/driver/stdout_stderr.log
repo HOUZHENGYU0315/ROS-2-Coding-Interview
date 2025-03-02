@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/driver_node.dir/src/driver_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable driver_node[0m
+[100%] Built target driver_node
+-- Install configuration: ""
+-- Installing: /home/hou/catkin_ws/install/driver/lib/driver/driver_node
+-- Set runtime path of "/home/hou/catkin_ws/install/driver/lib/driver/driver_node" to ""
+-- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/package_run_dependencies/driver
+-- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/parent_prefix_path/driver
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/ament_prefix_path.sh
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/ament_prefix_path.dsv
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/path.sh
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/environment/path.dsv
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.bash
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.sh
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.zsh
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/local_setup.dsv
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/package.dsv
+-- Installing: /home/hou/catkin_ws/install/driver/share/ament_index/resource_index/packages/driver
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/cmake/driverConfig.cmake
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/cmake/driverConfig-version.cmake
+-- Installing: /home/hou/catkin_ws/install/driver/share/driver/package.xml

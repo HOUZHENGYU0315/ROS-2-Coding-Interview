@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from driver_msgs/msg/Target.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module driver_msgs {
+  module msg {
+    struct Target {
+      string name;
+
+      uint64 count;
+
+      double time;
+
+      geometry_msgs::msg::Vector3 target;
+    };
+  };
+};

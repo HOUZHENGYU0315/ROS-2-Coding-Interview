@@ -1,0 +1,21 @@
+[5.156s] Invoking command in '/home/hou/catkin_ws/src/process': PYTHONPATH=/home/hou/catkin_ws/build/process/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hou/catkin_ws/install/process/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/process build --build-base /home/hou/catkin_ws/build/process/build install --record /home/hou/catkin_ws/build/process/install.log --single-version-externally-managed install_data
+[5.870s] running egg_info
+[5.880s] writing ../../build/process/process.egg-info/PKG-INFO
+[5.880s] writing dependency_links to ../../build/process/process.egg-info/dependency_links.txt
+[5.880s] writing entry points to ../../build/process/process.egg-info/entry_points.txt
+[5.880s] writing requirements to ../../build/process/process.egg-info/requires.txt
+[5.880s] writing top-level names to ../../build/process/process.egg-info/top_level.txt
+[5.903s] reading manifest file '../../build/process/process.egg-info/SOURCES.txt'
+[5.920s] writing manifest file '../../build/process/process.egg-info/SOURCES.txt'
+[5.920s] running build
+[5.920s] running build_py
+[5.937s] running install
+[5.937s] running install_lib
+[5.937s] running install_data
+[5.937s] running install_egg_info
+[5.957s] removing '/home/hou/catkin_ws/install/process/lib/python3.10/site-packages/process-0.0.0-py3.10.egg-info' (and everything under it)
+[5.958s] Copying ../../build/process/process.egg-info to /home/hou/catkin_ws/install/process/lib/python3.10/site-packages/process-0.0.0-py3.10.egg-info
+[5.973s] running install_scripts
+[6.039s] Installing process_node script to /home/hou/catkin_ws/install/process/lib/process
+[6.057s] writing list of installed files to '/home/hou/catkin_ws/build/process/install.log'
+[6.104s] Invoked command in '/home/hou/catkin_ws/src/process' returned '0': PYTHONPATH=/home/hou/catkin_ws/build/process/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hou/catkin_ws/install/process/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/process build --build-base /home/hou/catkin_ws/build/process/build install --record /home/hou/catkin_ws/build/process/install.log --single-version-externally-managed install_data

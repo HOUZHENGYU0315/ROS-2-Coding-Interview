@@ -1,0 +1,262 @@
+[0.229s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.230s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74d75f81a4a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74d75f819f90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74d75f819f90>>)
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.333s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hou/catkin_ws'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/driver' with type 'ros.ament_cmake' and name 'driver'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver_msgs) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/driver_msgs' with type 'ros.ament_cmake' and name 'driver_msgs'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/process) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/process' with type 'ros.ament_python' and name 'process'
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'driver_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hou/catkin_ws/build/driver_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hou/catkin_ws/install/driver_msgs', 'merge_install': False, 'path': '/home/hou/catkin_ws/src/driver_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hou/catkin_ws/build/driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hou/catkin_ws/install/driver', 'merge_install': False, 'path': '/home/hou/catkin_ws/src/driver', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'process' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'process' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hou/catkin_ws/build/process', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hou/catkin_ws/install/process', 'merge_install': False, 'path': '/home/hou/catkin_ws/src/process', 'symlink_install': False, 'test_result_base': None}
+[0.409s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.411s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hou/catkin_ws/src/driver_msgs' with build type 'ament_cmake'
+[0.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hou/catkin_ws/src/driver_msgs'
+[0.413s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hou/catkin_ws/build/driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver_msgs -- -j10 -l10
+[2.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hou/catkin_ws/build/driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hou/catkin_ws/build/driver_msgs -- -j10 -l10
+[2.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hou/catkin_ws/build/driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hou/catkin_ws/build/driver_msgs
+[2.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(driver_msgs)
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs' for CMake module files
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs' for CMake config files
+[2.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('driver_msgs', 'cmake_prefix_path')
+[2.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/cmake_prefix_path.ps1'
+[2.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hou/catkin_ws/build/driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hou/catkin_ws/build/driver_msgs
+[2.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/cmake_prefix_path.dsv'
+[2.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/cmake_prefix_path.sh'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/lib'
+[2.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('driver_msgs', 'ld_library_path_lib')
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/ld_library_path_lib.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/ld_library_path_lib.dsv'
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/ld_library_path_lib.sh'
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/bin'
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/lib/pkgconfig/driver_msgs.pc'
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/lib/python3.10/site-packages'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/bin'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.ps1'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.dsv'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.sh'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.bash'
+[2.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.zsh'
+[2.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hou/catkin_ws/install/driver_msgs/share/colcon-core/packages/driver_msgs)
+[2.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(driver_msgs)
+[2.734s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs' for CMake module files
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs' for CMake config files
+[2.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('driver_msgs', 'cmake_prefix_path')
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/cmake_prefix_path.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/cmake_prefix_path.dsv'
+[2.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/cmake_prefix_path.sh'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/lib'
+[2.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('driver_msgs', 'ld_library_path_lib')
+[2.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/ld_library_path_lib.ps1'
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/ld_library_path_lib.dsv'
+[2.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/hook/ld_library_path_lib.sh'
+[2.788s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/bin'
+[2.788s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/lib/pkgconfig/driver_msgs.pc'
+[2.788s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/lib/python3.10/site-packages'
+[2.788s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver_msgs/bin'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.ps1'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.dsv'
+[2.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.sh'
+[2.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.bash'
+[2.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver_msgs/share/driver_msgs/package.zsh'
+[2.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hou/catkin_ws/install/driver_msgs/share/colcon-core/packages/driver_msgs)
+[2.859s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hou/catkin_ws/src/driver' with build type 'ament_cmake'
+[2.859s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hou/catkin_ws/src/driver'
+[2.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.887s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hou/catkin_ws/src/process' with build type 'ament_python'
+[2.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('process', 'ament_prefix_path')
+[2.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/process/share/process/hook/ament_prefix_path.ps1'
+[2.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hou/catkin_ws/install/process/share/process/hook/ament_prefix_path.dsv'
+[2.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/process/share/process/hook/ament_prefix_path.sh'
+[2.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hou/catkin_ws/build/driver': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[3.803s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hou/catkin_ws/src/process'
+[3.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hou/catkin_ws/build/driver -- -j10 -l10
+[3.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hou/catkin_ws/build/driver': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hou/catkin_ws/build/driver
+[4.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(driver)
+[4.035s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver' for CMake module files
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver' for CMake config files
+[4.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('driver', 'cmake_prefix_path')
+[4.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver/share/driver/hook/cmake_prefix_path.ps1'
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hou/catkin_ws/install/driver/share/driver/hook/cmake_prefix_path.dsv'
+[4.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver/share/driver/hook/cmake_prefix_path.sh'
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/lib'
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/bin'
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/lib/pkgconfig/driver.pc'
+[4.079s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/lib/python3.10/site-packages'
+[4.079s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/bin'
+[4.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver/share/driver/package.ps1'
+[4.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hou/catkin_ws/build/driver' returned '0': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hou/catkin_ws/build/driver
+[4.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hou/catkin_ws/install/driver/share/driver/package.dsv'
+[4.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver/share/driver/package.sh'
+[4.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver/share/driver/package.bash'
+[4.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver/share/driver/package.zsh'
+[4.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hou/catkin_ws/install/driver/share/colcon-core/packages/driver)
+[4.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(driver)
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver' for CMake module files
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver' for CMake config files
+[4.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('driver', 'cmake_prefix_path')
+[4.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver/share/driver/hook/cmake_prefix_path.ps1'
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hou/catkin_ws/install/driver/share/driver/hook/cmake_prefix_path.dsv'
+[4.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/driver/share/driver/hook/cmake_prefix_path.sh'
+[4.175s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/lib'
+[4.175s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/bin'
+[4.175s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/lib/pkgconfig/driver.pc'
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/lib/python3.10/site-packages'
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/driver/bin'
+[4.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver/share/driver/package.ps1'
+[4.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hou/catkin_ws/install/driver/share/driver/package.dsv'
+[4.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver/share/driver/package.sh'
+[4.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver/share/driver/package.bash'
+[4.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/driver/share/driver/package.zsh'
+[4.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hou/catkin_ws/install/driver/share/colcon-core/packages/driver)
+[4.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hou/catkin_ws/src/process': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/build/process/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hou/catkin_ws/install/process/lib/python3.10/site-packages:/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/process build --build-base /home/hou/catkin_ws/build/process/build install --record /home/hou/catkin_ws/build/process/install.log --single-version-externally-managed install_data
+[5.707s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/process' for CMake module files
+[5.708s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/process' for CMake config files
+[5.710s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/process/lib'
+[5.710s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/process/bin'
+[5.710s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/process/lib/pkgconfig/process.pc'
+[5.710s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/process/lib/python3.10/site-packages'
+[5.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('process', 'pythonpath')
+[5.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/process/share/process/hook/pythonpath.ps1'
+[5.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hou/catkin_ws/install/process/share/process/hook/pythonpath.dsv'
+[5.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hou/catkin_ws/src/process' returned '0': AMENT_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hou/catkin_ws/install/driver_msgs LD_LIBRARY_PATH=/home/hou/catkin_ws/install/driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hou/catkin_ws/build/process/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hou/catkin_ws/install/process/lib/python3.10/site-packages:/home/hou/catkin_ws/install/driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/process build --build-base /home/hou/catkin_ws/build/process/build install --record /home/hou/catkin_ws/build/process/install.log --single-version-externally-managed install_data
+[5.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hou/catkin_ws/install/process/share/process/hook/pythonpath.sh'
+[5.737s] Level 1:colcon.colcon_core.environment:checking '/home/hou/catkin_ws/install/process/bin'
+[5.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(process)
+[5.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/process/share/process/package.ps1'
+[5.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hou/catkin_ws/install/process/share/process/package.dsv'
+[5.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/process/share/process/package.sh'
+[5.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/process/share/process/package.bash'
+[5.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/hou/catkin_ws/install/process/share/process/package.zsh'
+[5.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hou/catkin_ws/install/process/share/colcon-core/packages/process)
+[5.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.856s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.889s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.895s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.895s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.063s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hou/catkin_ws/install/local_setup.ps1'
+[6.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hou/catkin_ws/install/_local_setup_util_ps1.py'
+[6.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hou/catkin_ws/install/setup.ps1'
+[6.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hou/catkin_ws/install/local_setup.sh'
+[6.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hou/catkin_ws/install/_local_setup_util_sh.py'
+[6.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hou/catkin_ws/install/setup.sh'
+[6.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hou/catkin_ws/install/local_setup.bash'
+[6.147s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hou/catkin_ws/install/setup.bash'
+[6.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hou/catkin_ws/install/local_setup.zsh'
+[6.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hou/catkin_ws/install/setup.zsh'

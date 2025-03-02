@@ -1,0 +1,42 @@
+[0.083s] Invoking command in '/home/hou/catkin_ws/build/driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake /home/hou/catkin_ws/src/driver_msgs -DCMAKE_INSTALL_PREFIX=/home/hou/catkin_ws/install/driver_msgs
+[0.381s] -- The C compiler identification is GNU 11.4.0
+[0.539s] -- The CXX compiler identification is GNU 11.4.0
+[0.547s] -- Detecting C compiler ABI info
+[0.820s] -- Detecting C compiler ABI info - done
+[0.855s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.855s] -- Detecting C compile features
+[0.855s] -- Detecting C compile features - done
+[0.871s] -- Detecting CXX compiler ABI info
+[1.136s] -- Detecting CXX compiler ABI info - done
+[1.175s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.175s] -- Detecting CXX compile features
+[1.175s] -- Detecting CXX compile features - done
+[1.175s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.190s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[1.653s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.899s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.102s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.627s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.983s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.654s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.654s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.674s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.674s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.674s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.674s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.691s] -- Found PythonExtra: .so  
+[3.746s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[3.746s]   ament_python_install_package() the Python package folder
+[3.746s]   '/home/hou/catkin_ws/src/driver_msgs/driver_msgs' doesn't contain an
+[3.747s]   '__init__.py' file
+[3.747s] Call Stack (most recent call first):
+[3.747s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[3.747s]   CMakeLists.txt:20 (ament_python_install_package)
+[3.747s] 
+[3.747s] [0m
+[3.748s] -- Configuring incomplete, errors occurred!
+[3.748s] See also "/home/hou/catkin_ws/build/driver_msgs/CMakeFiles/CMakeOutput.log".
+[3.756s] Invoked command in '/home/hou/catkin_ws/build/driver_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hou/catkin_ws/install/process:/opt/ros/humble /usr/bin/cmake /home/hou/catkin_ws/src/driver_msgs -DCMAKE_INSTALL_PREFIX=/home/hou/catkin_ws/install/driver_msgs
